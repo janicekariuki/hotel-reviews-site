@@ -1,5 +1,7 @@
 #slider {
     overflow: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 #slider figure {
     position: relative;
@@ -7,10 +9,14 @@
     margin: 0;
     left: 0;
     animation: 10s slider infinite;
+    display: flex;
+
 }
 #slider figure img {
     float: left;
     width: 20%;
+    height: auto;
+    object-fit: cover;
 }
 @keyframes slider {
     0% {
