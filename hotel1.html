@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRumH8BZSXkyp4e-MEwB-4mhidiYOlMemaIkg&s" alt="entrance" >
     <a href="environment1-1.html">
         
@@ -53,5 +54,52 @@
         <img src="" alt="" >
         Book online or call our reservations desk on +254709111000 to assist you with your room
     </p>
+    <nav class="navigation">
+        <div>
+            <a href="#home">home</a>
+        </div>
+        <div>
+            <a href="aboutus.html">about us</a>
+        </div>
+        <a href="background"></a>
+    </nav>
+
+    
+    <h1>🛎️ Hotel Review Submission</h1>
+
+    <form id="hotelForm">
+        <label>
+            Hotel Name:<br>
+            <input type="text" id="hotelName" required>
+        </label>
+        <br><br>
+
+        <label>
+            Image URL:
+            <br>
+            <input type="text" id="hotelImage" required>
+        </label>
+        
+        <br><br>
+
+        <label>
+            Star Rating (1–5):<br>
+            <input type="number" id="hotelRating" min="1" max="5" required>
+        </label>
+        <br><br>
+
+        <label>
+            Review Comment:<br>
+            <textarea id="hotelComment" rows="4" required></textarea>
+        </label>
+        <br><br>
+
+        <button type="submit">Submit Review</button>
+        <br>
+    </form>
+
+    <div id="hotelList"></div>
+
+    
 </body>
 </html>
