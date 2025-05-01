@@ -49,8 +49,9 @@
     
 
 }
-.img{
-    height: 50px;
-    width: 50px;
+img{
+    height: 300px;
+    width: 300px;
     border: 50%;
+    margin-right: 40%;
 }
