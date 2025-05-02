@@ -1,0 +1,155 @@
+#slider {
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+    display: flex;
+
+}
+#slider figure img {
+    float: left;
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -50%;
+    }
+    45% {
+        left: -50%;
+    }
+    50% {
+        left: -120%;
+    }
+    70% {
+        left: -120%;
+    }
+    75% { 
+        left: -190%;
+    }
+    95% {
+        left: -190%;
+    }
+    100% {
+        left: 0%;
+    }
+    
+
+}
+img {
+    background-color: aliceblue;
+    
+    
+}
+.body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #333;
+    background: #1a374d;
+}
+
+.navigation {
+    background-color: #333;
+    padding: 1em;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+.hotel-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em 0;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    left: 0%;
+}
+
+.hotel-card img {
+    max-width: 100%;
+    height: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 1rem;
+}
+
+
+h1, h2 {
+    color: #1a374d;
+    margin-bottom: 0.5rem;
+}
+
+
+p {
+    max-width: 800px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+}
+
+
+body > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+
+.environment-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 700px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.environment-card:hover {
+    transform: scale(1.02);
+}
+
+.environment-card h2 {
+    margin-bottom: 0.5rem;
+    color: #406882;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
